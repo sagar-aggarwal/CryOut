@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_ask_for_help:  f = new askForHelpFragment();
                                          getSupportFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
                                          ft.replace(R.id.content_frame, f).commit();
-                                          getSupportActionBar().setTitle("Ask For Help");
+                                          getSupportActionBar().setTitle("Discussion Forum");
                                          break;
             case R.id.nav_want_to_help: f = new WantToHelpFragment();
                 getSupportFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);

@@ -27,7 +27,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View view) {
                 getFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
                 getFragmentManager().beginTransaction().replace(R.id.content_frame, new askForHelpFragment()).commit();
-                ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Ask For Help");
+                ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Discussion Forum");
             }
         });
         filecomplaint = (ImageView)rootview.findViewById(R.id.file_complaint_image_view);

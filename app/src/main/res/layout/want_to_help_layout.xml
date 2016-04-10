@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/universalColor"
+    android:layout_width="match_parent"
+    android:animateLayoutChanges="true"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logofull1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ngo11"
+                android:scaleType="centerInside"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:text="NGOs"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/universalColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:src="@drawable/police1"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:text="Police"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/universalColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:text="LOGIN"
+        android:textColor="@color/universalColor"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="Enter Username..."
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/Black"
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Entre Password.."
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/Black"
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="Enter"
+            android:textColor="@color/universalColor"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="2dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Not Registered ?"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
+
+          <TextView
+              android:layout_gravity="center"
+              android:text="Register with us "
+              android:textSize="20dp"
+              android:textStyle="bold"
+              android:gravity="right"
+              android:textColor="@color/Black"
+              android:layout_weight="2"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content" />
+          <TextView
+              android:layout_gravity="center"
+              android:text="here"
+              android:textSize="20dp"
+              android:textStyle="bold"
+              android:textColor="@color/colorPrimaryDark"
+              android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:id="@+id/signup_activity_text" />
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

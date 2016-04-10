@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:background="@color/universalColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/title"
+        android:hint="Enter The Title "
+        android:textSize="30dp"
+        android:textColorHint="@color/universalColor"
+        android:textColor="@color/universalColor"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:layout_weight="0.5"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" />
+
+    <EditText
+        android:layout_weight="3"
+        android:id="@+id/description"
+        android:hint="Enter The Description "
+        android:textSize="30dp"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" />
+
+
+</LinearLayout>

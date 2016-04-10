@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:background="@color/universalColor"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/date"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:text="Discussion Forum.Friday"
+        android:textSize="20dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#abb4a9a9"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:id="@+id/sad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:singleLine="false"
+            android:textColor="#df232121"
+            android:text="What are some of the stupidest things you've said to a teacher ?"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginRight="5dp"
+                android:layout_gravity="top"
+                android:scaleType="fitXY"
+                android:src="@drawable/anonymous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:text="yoyooyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyoyyoyoyoyoyoyoyoyoyyoyoyoyoyoyoyoyoyoyoyoyoyoyoyo"
+                android:textSize="23dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textColor="#848383"
+            android:text="14 Comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textColor="#848383"
+            android:text="Add Comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:background="#abb4a9a9"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_gravity="center"
+            android:text="Are You In Police Or An Ngo?"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="Police"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:text="NGO"
+                android:textSize="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Name/Name Of Organistaion"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Enter Name..."
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/Black"
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="City"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Enter City..."
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/Black"
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Provide Your Govt. Approved Authorization Code"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Enter Code..."
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/Black"
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Enter Email ID"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Enter Email..."
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/Black"
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="Enter Password"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Enter Password..."
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/Black"
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="Save Changes"
+            android:textColor="@color/universalColor"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:layout_gravity="right"
+            android:background="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</ScrollView>

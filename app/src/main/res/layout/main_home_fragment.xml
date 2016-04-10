@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/main_home"
+        android:layout_width="fill_parent"
+        android:layout_height="354dp">
+        
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/logofull"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_weight="23"
+        android:background="@color/colorPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/file_complaint_image_view"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitCenter"
+                    android:layout_width="140dp"
+                    android:src="@drawable/i3"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:text="File a\nComplaint"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/universalColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ask_for_help_image_view"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitCenter"
+                    android:layout_width="150dp"
+                    android:src="@drawable/i1"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:text="Discussion\nForum"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/universalColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:scaleType="fitCenter"
+                    android:layout_width="120dp"
+                    android:src="@drawable/i2"
+                    android:layout_height="120dp"
+                    android:id="@+id/want_to_help_image_view" />
+
+                <TextView
+                    android:text="Want To\nHelp?"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/universalColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>

@@ -5,4 +5,13 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="askforhelp1">There was a lot of noise from my neighbour\'s house last week. When I went there and knocked,
+   there was a sudden silence altogether. She came out and tried to put a brave face but I could
+   see that she had wept. I am almost confident that domestic violence is inflicted upon her, but
+   she doesn\'t cooperate. How can I help?</string>
+
+    <string name="askforhelp2">I got married 2 months back and since the first day the behaviour of my in-laws has been
+   totally unacceptable. They keep taunting me the whole day for petty things bringing the issue
+   of money in between. But they don\'t say what exactly they want. What should I do?
+1.Help against domestic v.</string>
 </resources>

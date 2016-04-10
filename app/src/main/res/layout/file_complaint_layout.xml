@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:background="@color/universalBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/universalColor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="1.Complaint Type"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioGroup
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/type_radio_group"
+                android:focusableInTouchMode="false">
+
+                <RadioButton
+                    android:text="Murder/Homicide"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:text="Domestic"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:text="Sexual Harrasment"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:text="Assault/Voilence"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:text="Theft Or Robbery"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:text="Any Other ? Please Specify ?"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textColor="#e2635c5c"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/title"
+                android:hint="Type ?"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="@color/Black"
+                android:background="@android:drawable/editbox_background"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/universalColor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="2.Assistance Required"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:text="Medical"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/medical" />
+                <CheckBox
+                    android:text="Police"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/police" />
+                <CheckBox
+                    android:text="Counselling"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/counselling" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/universalColor"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp">
+
+            <TextView
+                android:text="3.Event Details"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="Enter Event Details "
+                android:textSize="25dp"
+                android:gravity="start"
+                android:layout_marginTop="10dp"
+                android:textColorHint="@color/Black"
+                android:background="@android:drawable/editbox_background"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/event_details" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/universalColor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="4.Full Name"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="Enter Your Name "
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="@color/Black"
+                android:background="@android:drawable/editbox_background"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/full_name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/universalColor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="5.Email"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="Enter Email Id"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="@color/Black"
+                android:background="@android:drawable/editbox_background"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="@color/universalColor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Any Evidence ? Upload A Picture"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/upload_image"
+                android:scaleType="fitXY"
+                android:src="@drawable/main_home"
+                android:layout_width="450dp"
+                android:layout_height="350dp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

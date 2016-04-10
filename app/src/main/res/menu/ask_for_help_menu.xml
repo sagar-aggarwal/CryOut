@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/add_discussion"
+        android:title="Add"
+        android:icon="@drawable/ic_note_add_white_48dp"
+        app:showAsAction="always" />
+
+</menu>

@@ -79,7 +79,7 @@ public class AddFileComplaint extends Fragment {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
                 RadioButton rb = (RadioButton) radioGroup.getChildAt(i);
-//                complaintype = (String) rb.getText();
+               complaintype = (String) rb.getText();
             }
         });
 
@@ -161,7 +161,7 @@ public class AddFileComplaint extends Fragment {
                 eventdetails = detail.getText().toString();
                 fullname = name.getText().toString();
                 email = emailid.getText().toString();
-              //  new postingThread().execute();
+              new postingThread().execute();
                 Toast.makeText(getActivity().getApplicationContext(), "You have CriedOut for help. We will reach out to you soon!",Toast.LENGTH_LONG).show();
                 getFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
                 getFragmentManager().beginTransaction().replace(R.id.content_frame, new HomeFragment()).commit();

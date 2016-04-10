@@ -20,7 +20,7 @@ public class ServerUtilities {
     private static final int MAX_ATTEMPTS = 5;
     private static final int BACKOFF_MILLI_SECONDS = 2000;
     private static final Random random = new Random();
-    private static final String SERVER_URL = "http://192.168.1.1/CryOut/androidlink.php";
+    private static final String SERVER_URL = "http://192.168.1.42/CryOut/androidlink.php";
     private static final String SENDER_ID = "917624340619";
     private static final String TAG = "ServerUtilities" ;
     private static final String PROPERTY_REG_ID = "reg_id";

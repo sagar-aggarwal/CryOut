@@ -7,7 +7,7 @@
         <item android:id="@+id/nav_file_complaint" android:icon="@drawable/ic_note_add_black_36dp"
             android:title="File Complaint" />
         <item android:id="@+id/nav_ask_for_help" android:icon="@drawable/ic_phone_black_36dp"
-            android:title="Ask For Help" />
+            android:title="Discussion Forum" />
         <item android:id="@+id/nav_want_to_help" android:icon="@drawable/ic_live_help_black_36dp"
             android:title="Want To Help ?" />
     </group>

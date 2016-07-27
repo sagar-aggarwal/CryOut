@@ -1,7 +1,7 @@
-#CryOut)
+#CryOut
 CryOut has been made with a motive to act as a connecting link between those who seek help and those who are capable of providing help.
 
-![Cryout](/../master/ScreenShots/Screenshot_20160410-123447.png "Home" )
+![Cryout](/../master/ScreenShots/Screenshot_20160410-123447.png=100*200 "Home" )
 
 + **[Features](#features)**
   + [Home](#1home)
@@ -15,9 +15,9 @@ CryOut has been made with a motive to act as a connecting link between those who
 ##Features
 ##1.Home
 Interactive User interface 
-![Home](/../master/ScreenShots/Screenshot_20160410-123447.png "Home" )
-![Home](/../master/ScreenShots/Screenshot_20160410-123454.png "Home" )
-![Home](/../master/ScreenShots/Screenshot_20160410-123447.png "Home" )
+![Home](/../master/ScreenShots/Screenshot_20160410-123447.png=100*200 "Home" )
+![Home](/../master/ScreenShots/Screenshot_20160410-123454.png=100*200 "Home" )
+![Home](/../master/ScreenShots/Screenshot_20160410-123447.png=100*200 "Home" )
 
 ##2.File A Complaint
 The users who seek help can access the portal and register their complaints with us. These complaints will then be available to all the NGOs and Policemen registered with us who can view them and provide help as required. The users will be authenticated by their Aadhar numbers.

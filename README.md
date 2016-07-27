@@ -1,7 +1,7 @@
 #CryOut
 CryOut has been made with a motive to act as a connecting link between those who seek help and those who are capable of providing help.
 
-![Cryout](/../master/ScreenShots/Screenshot_20160410-123447.png=100*200 "Home" )
+<img src="/../master/ScreenShots/Screenshot_20160410-123447.png" width="200" height="100">
 
 + **[Features](#features)**
   + [Home](#1home)

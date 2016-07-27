@@ -1,4 +1,4 @@
-+**[Cryout](#CryOut)**
+#CryOut)
 CryOut has been made with a motive to act as a connecting link between those who seek help and those who are capable of providing help.
 
 ![Cryout](/../master/ScreenShots/Screenshot_20160410-123447.png "Home" )

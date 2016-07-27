@@ -50,7 +50,7 @@ A button is available on the app at all times which on being clicked sends an em
 ##Contributors
 1.[Sagar Aggarwal (2014-2018),Android App Dev.](https://github.com/sgaggarwal2009) <br />
 2.[Shreya Chandra (2014-2018),Backend and Web Dev. ,NSIT Dwarka](https://github.com/shr7) <br />
-3.[arthak Agarwal (2014-2018),Web Dev.,NSIT Dwarka](https://github.com/sarthakagarwal18) <br />
+3.[Sarthak Agarwal (2014-2018),Web Dev.,NSIT Dwarka](https://github.com/sarthakagarwal18) <br />
 4.[Shivli Agrawal (2014-2018),Android App Dev.,NSIT Dwarka](https://github.com/shivli97) <br />
 
 [Web App Link](https://github.com/shr7/CryOut)

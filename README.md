@@ -48,7 +48,7 @@ A button is available on the app at all times which on being clicked sends an em
 <img src="/../master/ScreenShots/Screenshot_20160410-123629.png" width="200" height="400">
 
 ##Contributors
-[1.Sagar Aggarwal (2014-2018),Android App Dev.](https://github.com/sgaggarwal2009) <br />
+[1.Sagar Aggarwal (2014-2018),Android App Dev., NSIT Dwarka](https://github.com/sgaggarwal2009) <br />
 [2.Shreya Chandra (2014-2018),Backend and Web Dev. ,NSIT Dwarka](https://github.com/shr7) <br />
 [3.Sarthak Agarwal (2014-2018),Web Dev.,NSIT Dwarka](https://github.com/sarthakagarwal18) <br />
 [4.Shivli Agrawal (2014-2018),Android App Dev.,NSIT Dwarka](https://github.com/shivli97) <br />
@@ -56,4 +56,4 @@ A button is available on the app at all times which on being clicked sends an em
 [Web App Link](https://github.com/shr7/CryOut)
 
 ##Project Maintainers
-This project is actively maintained by [Sagar Aggarwal](https://github.com/sgaggarwal2009) . For any sort of queries feel free to either mail at sgaggarwal2009@gmail.com . We will certainly reply to you as soon as we can.
+This project is actively maintained by [Sagar Aggarwal](https://github.com/sgaggarwal2009) . For any sort of queries feel free to mail at sgaggarwal2009@gmail.com . I will certainly reply to you as soon as I can.
